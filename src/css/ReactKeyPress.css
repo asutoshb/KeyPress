@@ -1,0 +1,27 @@
+.main-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.react-key-press {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 500px;
+}
+
+.react-key-press div{
+    width: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.unmount-btn {
+    cursor: pointer;
+}
